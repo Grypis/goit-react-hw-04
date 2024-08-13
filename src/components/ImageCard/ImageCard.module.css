@@ -1,0 +1,30 @@
+.imageCardContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.imageCardHoverInfo {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #222629d3;
+  transform: translateY(100%);
+  transition: transform 200ms linear;
+}
+
+.imageCardContainer:hover .imageCardHoverInfo {
+  transform: translateY(0%);
+}
+
+.imageCardHoverInfoItem {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--default-accent-color);
+  padding: 4px 8px;
+}

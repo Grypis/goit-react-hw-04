@@ -1,0 +1,18 @@
+.loadMoreBtn {
+  display: block;
+  color: var(--default-text-color);
+  font-size: 16px;
+  background-color: var(--default-accent-color);
+  transition: background-color 200ms linear;
+  outline: transparent;
+  border: 1px solid #181938;
+  border-radius: 6px;
+  padding: 8px 16px;
+  margin: 0 auto;
+}
+
+.loadMoreBtn:hover,
+.loadMoreBtn:focus-visible,
+.loadMoreBtn:active {
+  background-color: var(--default-accent-hover-color);
+}
